@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "${mod_license}"
+issueTrackerURL = "https://github.com/BackupBackupFede/${mod_repo}/issues"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+logoFile = "icon.png"
+authors = "${mod_author}"
+credits = "Support: https://ko-fi.com/acesoverdeuces777"
+displayURL = "https://github.com/BackupBackupFede/${mod_repo}"
+description = '''
+No water, no lava, nowhere. Oceans, rivers, lakes, aquifers, springs and the Nether's lava sea all come out dry - the basins are still carved, so a drained ocean is somewhere you walk into, past shipwrecks and monuments standing in open air. Because obsidian needs water to meet lava, it can no longer be made, and the Nether portal becomes a lock. The only obsidian left in the Overworld stands in the world's ruined portals, and most of that is crying obsidian: the world fills with portals that look finished and never light. Reaching the Nether is an expedition across several ruins. Rain, cauldrons, ice, buckets and the water inside structures are untouched. Server-side: works against a vanilla client. Applies to newly generated chunks, so start a new world.
+
+Support: https://ko-fi.com/acesoverdeuces777
+'''
+
+[[mixins]]
+config = "${mod_id}.mixins.json"
+
+[[dependencies.${mod_id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "${neo_dep}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "${neo_mc_dep}"
+ordering = "NONE"
+side = "BOTH"

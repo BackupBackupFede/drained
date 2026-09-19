@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.emeraude.drained.mixin",
+  "compatibilityLevel": "${mixin_compat}",
+  "mixins": [
+    "AquiferMixin",
+    "DeltaFeatureMixin",
+    "LakeFeatureMixin",
+    "LootTableMixin",
+    "NetherWorldCarverMixin",
+    "NoiseBasedChunkGeneratorMixin",
+    "OceanMonumentPieceMixin",
+    "RuinedPortalPieceMixin",
+    "SpringFeatureMixin",
+    "SurfaceRuleStateMixin",
+    "SurfaceSystemMixin",
+    "WorldCarverMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
