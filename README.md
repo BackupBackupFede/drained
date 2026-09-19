@@ -117,7 +117,7 @@ tables are left alone either way: by the time you can reach them, the lock is al
 The Gradle **process** needs JDK 25 even when a target's toolchain is Java 21:
 
 ```powershell
-$env:JAVA_HOME = 'C:\Users\FLO\.gradle\jdks\eclipse_adoptium-25-amd64-windows.2'
+$env:JAVA_HOME = 'C:\path\to\jdk-25'
 ```
 
 ```bash
